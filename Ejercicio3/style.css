@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Skygraze';
+    src: url('Fuente/Skygraze.otf') format('opentype');
+  }
+
+  /* Estilo para el elemento .navbar-brand */
+  .navbar-brand {
+    font-family: 'Skygraze', sans-serif; /* Cambia la fuente del elemento */
+    /* Otros estilos para el elemento si es necesario */
+  }
+
+ 
+  th {
+    background-color: #333;
+    color: #fff;
+    font-weight: bold; /* Hace que el texto sea más audaz para destacar los encabezados */
+    text-align: center; /* Centra el texto en las celdas del encabezado */
+    padding: 10px; /* Añade un espacio interno alrededor del texto en las celdas del encabezado */
+}
+
+td.stock-rojo {
+    background-color: #ff4136;
+    color: #fff; /* Texto blanco para filas rojas */
+}
+
+/* Estilo para las filas con stock mayor al máximo (verdes) */
+td.stock-verde {
+    background-color: #2ecc40;
+    color: #fff; /* Texto blanco para filas verdes */
+}

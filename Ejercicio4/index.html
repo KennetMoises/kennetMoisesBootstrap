@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Lista de videos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="java.js"></script>
+ 
+    <!--Incluir librerias bootstrap-->
+  
+   
+</head>
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">About</h4>
+                <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4 class="text-white">Contact</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                  <li><a href="#" class="text-white">Like on Facebook</a></li>
+                  <li><a href="#" class="text-white">Email me</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+          <div class="container">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+              <strong>Album</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+      </header>
+      
+      <main>
+      
+        <section class="py-5 text-center container">
+          <div class="row py-lg-5">
+            <div class="col-lg-6 col-md-8 mx-auto">
+              <h1 class="fw-light">Album example</h1>
+              <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+              <p>
+                <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+              </p>
+            </div>
+          </div>
+        </section>
+      
+        <div class="album py-5 bg-light">
+          <div class="container">
+      
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col" id="video-container-0">
+                <div class="card shadow-sm">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item youtube-video" src="https://www.youtube.com/embed/2ZXiuh0rg3M" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Este video trata de la introducción a Java</p>
+                    <p class="card-text"><a href="https://www.youtube.com/@ProgramacionATS" target="_blank">Autor del video Programacion ATS</a></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://www.youtube.com/watch?v=2ZXiuh0rg3M" class="btn btn-sm btn-outline-secondary">Ver video relacionado</a>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col" id="video-container-1">
+                <div class="card shadow-sm">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item youtube-video" src="https://www.youtube.com/embed/vwtl7pZ2iIQ" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Este video trata del curso de redes de Cisco</p>
+                    <p class="card-text"><a href="https://www.youtube.com/@NetworkWarriors" target="_blank">Autor del video Network Warriors</a></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://www.youtube.com/watch?v=vwtl7pZ2iIQ" class="btn btn-sm btn-outline-secondary">Ver video relacionado</a>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>         
+
+
+              <div class="col" id="video-container-2">
+                <div class="card shadow-sm">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item youtube-video" src="https://www.youtube.com/embed/oQ4q2CSXP4M" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Este video trata del curso de Power BI</p>
+                    <p class="card-text"><a href="https://www.youtube.com/@informaticonfig333" target="_blank">Autor del video INFORMATICONFIG</a></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://www.youtube.com/watch?v=oQ4q2CSXP4M" class="btn btn-sm btn-outline-secondary">Ver video relacionado</a>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+              
+              
+              
+              
+              
+              
+            
+              <div class="col" id="video-container-3">
+                <div class="card shadow-sm">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item youtube-video" src="https://www.youtube.com/embed/tcza2FEz4u4" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Este video trata del curso de Programación Orientada a Objetos en Java</p>
+                    <p class="card-text"><a href="https://www.youtube.com/@TodoCode" target="_blank">Autor del video TodoCode</a></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://www.youtube.com/watch?v=tcza2FEz4u4" class="btn btn-sm btn-outline-secondary">Ver video relacionado</a>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>             
+   
+
+
+              <div class="col" id="video-container-4">
+                <div class="card shadow-sm">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item youtube-video" src="https://www.youtube.com/embed/nCB1gEkRZ1g" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Este video trata del curso de PhP</p>
+                    <p class="card-text"><a href="https://www.youtube.com/@Develoteca" target="_blank">Autor del video Oscar Perez</a></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://www.youtube.com/watch?v=nCB1gEkRZ1g" class="btn btn-sm btn-outline-secondary">Ver video relacionado</a>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>      
+  
+
+              <div class="col" id="video-container-5">
+                <div class="card shadow-sm">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item youtube-video" src="https://www.youtube.com/embed/OWKXEJN67FE" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Este video trata del curso de CSS desde 0</p>
+                    <p class="card-text"><a href="https://www.youtube.com/@soydalto" target="_blank">Autor del video SoyDalto</a></p>
+                    <div class d-flex justify-content-between align-items-center>
+                      <div class="btn-group">
+                        <a href="https://www.youtube.com/watch?v=OWKXEJN67FE" class="btn btn-sm btn-outline-secondary">Ver video relacionado</a>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>    
+    
+    
+              <div class="col" id="video-container-6">
+                <div class="card shadow-sm">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item youtube-video" src="https://www.youtube.com/embed/t23trHbTOQE" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Este video trata del curso de Linux desde 0</p>
+                    <p class="card-text"><a href="https://www.youtube.com/@informaticonfig333" target="_blank">Autor del video INFORMATICONFIG</a></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://www.youtube.com/watch?v=t23trHbTOQE" class="btn btn-sm btn-outline-secondary">Ver video relacionado</a>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+
+              <div class="col" id="video-container-7">
+                <div class="card shadow-sm">
+                  <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item youtube-video" src="https://www.youtube.com/embed/N63NJo3VHHg" frameborder="0" allowfullscreen></iframe>
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Este video trata del curso de seguridad informática</p>
+                    <p class="card-text"><a href="https://www.youtube.com/@ErgoHackers3" target="_blank">Autor del video ERGOHACKER</a></p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <a href="https://www.youtube.com/watch?v=N63NJo3VHHg" class="btn btn-sm btn-outline-secondary">Ver video relacionado</a>
+                      </div>
+                      <small class="text-muted">9 mins</small>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+
+
+
+          </div>
+        </div>
+      
+      </main>
+      
+      <footer class="text-muted py-5">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+          </p>
+          <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
+          <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a href="/docs/5.2/getting-started/introduction/">getting started guide</a>.</p>
+        </div>
+      </footer>
+
+      
+
+      
+</body>
+</html>

@@ -1,0 +1,64 @@
+/* Estilos generales */
+body {
+    background-color: beige;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    background-color: grey;
+    border-radius: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Resultado */
+.resultado {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-width: 400px;
+    max-height: 300px;
+    overflow-y: scroll;
+    margin: 20px auto;
+}

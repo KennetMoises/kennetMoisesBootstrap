@@ -1,0 +1,90 @@
+.card-tittle-custom{
+    background-color: #ADD8E6;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+
+header {
+    background-color: white;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header img {
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+}
+
+header p {
+    font-size: 1rem;
+    color: #6c757d; /* Color de texto plomo/gris */
+}
+
+header .btn-primary {
+    background-color: #007bff; /* Azul */
+    color: white;
+    margin-right: 10px;
+}
+
+header .btn-secondary {
+    background-color: #6c757d; /* Plomo/gris */
+    color: white;
+}
+
+/* Estilos para las tarjetas de imágenes */
+.card {
+    border: 2px solid blue;
+    margin: 10px;
+    text-align: center;
+    width: calc(100% - 20px); /* Ancho de aproximadamente 1/4 con margen */
+    box-sizing: border-box; /* Incluye el borde y el margen en el ancho total */
+    display: inline-block; /* Permite que las tarjetas aparezcan en línea */
+    vertical-align: top; /* Alinea las tarjetas en la parte superior */
+    height: 350px; /* Altura */
+    overflow: auto;
+    
+}
+
+.card-title {
+    border-bottom: 2px solid blue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-title h5 {
+    margin: 0;
+}
+
+.card img {
+    object-fit: cover;
+    max-width: 100%; /* Ajusta el ancho máximo de las imágenes al 100% del contenedor */
+    height: auto
+}
+
+.card .card-text {
+    font-size: 0.9rem;
+}
+
+.card .btn-outline-secondary {
+    color: #6c757d;
+}
+
+.card small {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+
